@@ -1,0 +1,93 @@
+/* Background gradient inspired by Pokémon colors */
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(135deg, #f7d02c 0%, #ffcb05 50%, #3b4cca 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* Heading */
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 30px;
+}
+
+/* Search box */
+.search-container {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 12px;
+  width: 220px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #ff0000;
+}
+
+/* Search button */
+button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  background: #cc0000;
+  transform: scale(1.05);
+}
+
+/* Pokémon card */
+.pokemon-card {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  min-width: 250px;
+}
+
+/* Pokémon name */
+.pokemon-card h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Pokémon image */
+.pokemon-card img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Pokémon type */
+.pokemon-card p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Error messages */
+.error {
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 1px 1px #000;
+}
