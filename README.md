@@ -11,7 +11,8 @@ Displays Pokémon Name, Pokémon Image, and Pokémon Type(s)
 
 Handles errors when Pokémon doesn’t exist or the input is empty.
 
-Fun Pokémon-themed styling includes:
+
+Fun Pokémon-themed styling includes ✨
 
 Smooth yellow-to-blue gradient background
 
@@ -20,3 +21,11 @@ Red “Poké Ball” style search button
 Rounded card display for each Pokémon
 
 Colorful and easy-to-read interface
+
+Resources Used are 📚
+
+PokeAPI
+
+MDN: Fetch API
+
+MDN: async/await
